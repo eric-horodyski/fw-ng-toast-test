@@ -1,0 +1,7 @@
+{
+  "name": "toast-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
