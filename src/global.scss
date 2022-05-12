@@ -24,3 +24,14 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+ion-toast::part(container) {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+ion-toast::part(button) {
+  color: red;
+}
